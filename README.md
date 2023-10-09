@@ -11,6 +11,11 @@ This script automates the process of paraphrasing articles using undetectable.ai
 - Supports different writing purposes and readability levels.
 - Utilizes Chrome's incognito mode for anonymity.
 
+## Prerequisites
+
+- Python 3.x
+- Google Chrome installed (chromedriver is used by Selenium)
+
 ## Usage
 
 1. Clone this repository to your local machine.
@@ -37,8 +42,3 @@ Follow the on-screen prompts to select the writing purpose, readability level, a
 
 The script will create an accounts.txt file with temporary email accounts and save the paraphrased content to paraphrased.txt.
 Sit back and relax while the script paraphrases your article!
-
-## Prerequisites
-
-- Python 3.x
-- Google Chrome installed (chromedriver is used by Selenium)
